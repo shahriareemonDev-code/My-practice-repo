@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My practice task</title> 
+<link rel="stylesheet" href="index.css">   
+<style>
+    .div{
+        border: 2px solid purple;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+ .h1{
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+ }
+ .p{
+    font-weight: 600;
+ }
+ .btn{
+    border: 2px;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: orange;
+ }
+</style>
+
+</head>
+<body>
+    <!-- this is inline css section -->
+    <h1 style="margin-left: 10px; text-decoration: underline;"> <i>This is a inline CSS desing</i></h1>
+    <div style="background-color: antiquewhite; border: 5px solid wheat; margin: 10px; padding: 20px; border-radius: 10px;">
+        <p style="font-weight: 700;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores alias amet, nam ad nostrum nihil sint numquam magni vero nobis? Soluta ullam aspernatur mollitia! Quidem nisi magni sed unde totam, similique reprehenderit consequatur odio ipsam voluptatibus aliquam, temporibus tempore nesciunt?</p>
+    </div>
+       <!-- this is internal css section -->
+     <h1 class="h1"> This is a internal CSS desing</h1>
+    <div class="div">
+      <img width="500px" src="image/top-view-fast-food-mix-mozzarella-sticks-club-sandwich-hamburger-mushroom-pizza-caesar-shrimp-salad-french-fries-ketchup-mayo-cheese-sauces-table.jpg" alt="Set Menu">
+      <p class="p"> This is my fabourite food</p>
+      <button class="btn"> Order Now</button>
+    </div>
+     <!-- this is external css section -->
+
+    <h1 class="external">External CSS design</h1>
+    <div class="lastdiv">
+      <p class="form">This is a Form</p>
+      <br>
+      Your Email:<input class="email" placeholder="Email" type="text"> <br>
+       Password: <input class="pass" placeholder="Passwords" type="password">
+       
+       <div id="bttn">
+        <button class="btn1">Log in</button>
+       <br>
+       <button class="btn2">Forgot Password</button>
+       </div>
+       
+    </div>
+</body>
+</html>
